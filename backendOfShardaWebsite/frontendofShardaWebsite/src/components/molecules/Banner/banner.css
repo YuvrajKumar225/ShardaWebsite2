@@ -1,0 +1,23 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0000001a;
+  }
+  
+  .image-animation {
+    animation: float 3s ease-in-out infinite; /* Reduced animation duration */
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

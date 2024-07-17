@@ -1,0 +1,25 @@
+.active-btn {
+    color: #1500ff;
+    background-color: transparent;
+}
+
+.paket-featured {
+    font-size: 15px;
+    color: #ff0000;
+    animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.service-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
